@@ -1,0 +1,618 @@
+body
+{
+    
+    background-image: url('../img/17.png');
+    
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-color: rgb(190 190 190)
+
+}
+header
+{
+    height: 50px;
+    background-color: black;
+}
+h1
+{
+    margin: 0;
+    color:orange;
+    text-align: center;
+    font-size: 60px;
+}
+nav
+{
+    
+    height: 150px;
+    background-color: black;
+    font-size: 30px;
+    font-family:noto serif cjk tc black;
+    text-align: center;
+}
+nav ul
+{
+   margin: 0;
+   position: relative;
+   top: 65px;
+   
+}
+nav li
+{
+    list-style: none;
+    display: inline-block;
+    position: relative;   
+}
+nav a
+{
+    
+    position: relative;
+    padding: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: orange;
+}
+.sec1
+{
+    height: 400px;
+    width: auto;
+
+    background-color: rgba(0, 0, 0, 0.850);
+    background-image: url('../img/15.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.me
+{
+    
+    position: relative;
+    top: 30px;
+    height: 300px;
+    width: auto;
+    border-radius: 100%;
+    border: rgb(255, 255, 255) solid 5px;
+}
+
+#ME
+{
+    text-align: center;
+}
+
+#ania:hover 
+{
+    position: relative;
+    left: -500px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform: rotateY(180deg);
+}
+
+#anib
+{
+    position: relative;
+    -webkit-filter: opacity(0%);
+    
+}
+#ania:hover + #anib
+{
+    -webkit-filter: opacity(100%);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+#me1
+{
+   font-family:noto serif cjk tc black ;
+   font-size: 100px;
+   color: 		#C4E1E1;
+   position: absolute;
+   top: -400px;
+   left: 450px;
+}
+#you
+{
+    font-family:noto serif cjk tc black ;
+    font-size: 100px;
+    color: 		#C4E1E1;
+    position: absolute;
+    top: -200px;
+    left: 450px;
+}
+#selfme
+{
+    font-family: noto serif cjk tc black ;
+    font-size: 50px;
+    color: 	white;
+    font-weight: bold;
+    position: absolute;
+    top: -350px;
+    left: 800px;
+}
+#selfmee
+{
+    font-family: noto serif cjk tc black ;
+    font-size: 30px;
+    color: 	white;
+    font-weight: bold;
+    position: absolute;
+    top: -220px;
+    left: 800px;
+}
+#selfmeee
+{
+    font-family: noto serif cjk tc black ;
+    font-size: 30px;
+    color: 	white;
+    font-weight: bold;
+    position: absolute;
+    top: -140px;
+    left: 800px;
+}
+#sleftalk
+{
+    font-family: noto serif cjk tc black ;
+    font-size: 30px;
+    font-style: oblique;
+    color: 	white;
+    font-weight: bold;
+    position: absolute;
+    top: -60px;
+    left: 800px;
+    animation: slidein 5s linear infinite;
+}
+@keyframes slidein
+{
+    0% {
+        transform: translate(100%,0%);
+    }
+
+    100% {
+        opacity: 3;
+    }
+}
+
+.main
+{
+    width: 1100px;
+    position: relative;
+    margin-bottom: 50px;
+    top: 80px;
+    left: 220px;
+    background-color: rgba(0, 0, 0, 0.746);
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px red,
+        -6px -5px 8px red,
+        3px -3px 8px red;
+}
+.skill
+{
+    padding: 5%;
+    width: 990px;
+    height: 430px;
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+}
+.skill h1
+{
+    font-family: noto serif cjk tc black ;
+    width: 20px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    color: white;
+    font-size: 70px;
+    transition: 0.5s;
+    animation: shine 0.5s linear infinite;
+}
+@keyframes shine
+{
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
+.skillbox
+{
+    
+    position: relative;
+    left: 130px;
+    font-family: 'Allerta Stencil';
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    top: 0px;
+    text-align: left;
+}
+.progress
+{
+    position: relative;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 4px;
+}
+.progressbar 
+{
+    width: 0; 
+    height: inherit;
+    border-radius: 6px; 
+    background: repeating-linear-gradient(-45deg, #2F0000  25%, #2F0000 0, 	#930000 50%, 	#930000 0, 	#FF0000 75%, 	#FF0000 0);
+    background-size: 10px 10px;
+}
+
+.cc
+{
+    -webkit-animation: panoramic 20s linear infinite;
+    width: 60%;
+}
+.j
+{
+    -webkit-animation: panoramic 20s linear infinite;
+    width: 70%;
+}
+.m
+{
+    -webkit-animation: panoramic 20s linear infinite;
+    width: 80%;
+}
+.h
+{
+    -webkit-animation: panoramic 20s linear infinite;
+    width: 80%;
+}
+
+@keyframes panoramic
+{
+    to
+    {
+    	background-position: 200% 0;
+    }
+}
+
+
+.play
+{
+    display: inline-flex;
+    position: relative;
+    left: 530px;
+    top: -418px;
+}
+.run 
+{
+    width: 200px;
+    height: 200px;
+    background: #a3a0a0;
+    border-radius: 50%;
+    margin: 30px;
+}
+.mask.full 
+{
+    animation: fill ease-in-out 8s;
+    transform: rotate(144deg);
+}
+
+.mask 
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 200px, 200px, 100px);
+}
+.fill 
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 100px, 200px, 0px);
+    background-color: #930000;
+    animation: fill ease-in-out 8s;
+    transform: rotate(144deg);
+}
+@keyframes fill 
+{
+    0% 
+    {
+      transform: rotate(0deg);
+    }
+    100% 
+    {
+      transform: rotate(144deg);
+    }
+}
+.inside 
+{
+    font-family:'Allerta Stencil' ;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    line-height: 170px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 22pt;
+    background-color: black;
+}
+.mask.fulll 
+{
+    animation: filll ease-in-out 8s;
+    transform: rotate(108deg);
+}
+.filll 
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 100px, 200px, 0px);
+    background-color: #930000;
+    animation: filll ease-in-out 8s;
+    transform: rotate(108deg);
+}
+@keyframes filll 
+{
+    0% 
+    {
+      transform: rotate(0deg);
+    }
+    100% 
+    {
+      transform: rotate(108deg);
+    }
+}
+
+.education
+{
+    padding: 5%;
+    width: 990px;
+    height: 430px;
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+}
+.education h1
+{
+    position: absolute;
+    font-family:noto serif cjk tc black ;
+    font-size: 70px;
+    color: white;
+    transition: 0.5s;
+    animation: shine 0.5s linear infinite;
+}
+@keyframes shine
+{
+    0% 
+    {
+        opacity: 1;
+    }
+
+    100% 
+    {
+        opacity: 0.1;
+    }
+}
+.timing 
+{
+    list-style-type: none;
+    position: relative;
+    top: 30px;
+}
+.study
+{
+    float: left;
+    position: relative;
+    left: 20%;
+    margin-right: 20;
+    border-top: 5px solid orange;
+    font-size: 30px;
+    text-align: center;
+    width: 20%;
+    top: 0px;
+    font-weight: 900;
+    transition: 1s ease;
+  
+}
+.list 
+{
+    content: '';
+    position: relative;
+    top: -45px;
+    left: 42%;
+    width: 5px;
+    height: 5px;
+    border: 10px solid black;
+    border-radius: 100%;
+    background: orange;
+  
+}
+.nk:hover
+{
+	transition: all 0.8s ease-out;
+    animation: swing  0.5s 3;
+}
+@keyframes swing 
+{
+    15% {
+        transform: translateX(5px);
+    }
+
+    40% {
+        transform: translateX(-5px);
+    }
+
+    65% {
+        transform: translateX(2px);
+    }
+
+    85% {
+        transform: translateX(-2px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+.interest
+{
+    padding: 5%;
+    width: 990px;
+    height: 430px;
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+}
+.interest h1
+{
+    font-family:noto serif cjk tc black ;
+    font-size: 70px;
+    color: white;
+    transition: 0.5s;
+    animation: shine 0.5s linear infinite;
+}
+.pict
+{
+    margin: auto;
+}
+.int
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 46px;
+    float: left;
+    animation-name: bonk;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bonk
+{
+    0%
+    {
+	transform: scale(1);
+	}
+	100%
+    {
+	transform: scale(1.1);
+	}
+}
+#inttext
+{
+    font-family:'Allerta Stencil' ;
+    color: 	#D9FFFF;
+    font-size: 30px;
+}
+.intpic
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 5px;
+}
+.project
+{
+
+    padding: 5%;
+    width: 990px;
+    height: 1200px;
+    border-bottom: 1px solid red;
+    border-radius: 10px;
+
+}
+.projectt
+{
+    font-family: noto serif cjk tc black ;
+    width: 20px;
+    position: absolute;
+    left: 975px;
+    top: 150px;
+    color: white;
+    font-size: 70px;
+    transition: 0.5s;
+    animation: shine 0.5s linear infinite;
+}
+.projecttt
+{
+    font-family:noto serif cjk tc black ;
+    font-size: 70px;
+    position: absolute;
+    left: 800px;
+    color: white;
+    transition: 0.5s;
+    animation: shine 0.5s linear infinite;
+}
+.project img
+{
+    width: 300px;
+    box-shadow: 5px 5px 10px white;
+    border-radius: 3px;
+}
+.pro-table
+{
+    margin-bottom: -80px;
+}
+.pro-pic1
+{
+    position: relative;
+    
+    z-index: 3;
+    transition: 0.5s;
+}
+.pro-pic1:hover
+{
+    transform: scale(1.2);
+}
+.pro-pic2
+{
+    position: relative;
+    left: 30px;
+    top: -150px;
+    z-index: 2;
+    transition: 0.5s;
+}
+.pro-pic2:hover
+{
+    z-index: 3;
+    transform: scale(1.2);
+}
+.pro-text
+{
+    position: relative;
+    top: -60px;
+    color: 	#AAAAFF;
+    font-family: 'Allerta Stencil';
+    text-align: left;
+    left:100px;
+    width: 500px;
+    font-size: 15px;
+}
+footer
+{
+    margin-top: 100px;
+    
+    height: 200px;
+    background-color: black;
+}
+
+.foopic
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
